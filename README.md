@@ -124,7 +124,7 @@ The app solves some key problems faced by anyone:
 </p>
 <br clear="left"/>
 
-### View Room
+### Persistant Storage
 <p>
  <img align="left" src="assets/room.gif" width="300" height="550"/>
 </p>
@@ -142,13 +142,13 @@ The app solves some key problems faced by anyone:
 </p>
 <br clear="left"/>
 
-### Search (Trail Phase)
+### Search (Dev Phase)
 <p>
  <img align="left" src="assets/search.gif" width="300" height="550"/>
 </p>
 <br clear="left"/>
 
-### Delete All Items (Trail Phase)
+### Delete All Items (Dev Phase)
 <p>
  <img align="left" src="assets/delete_all.gif" width="300" height="550"/>
 </p>
