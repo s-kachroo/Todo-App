@@ -99,7 +99,7 @@ The project leverages a variety of technologies, libraries, and architectural pr
 * Enhance Unit and Integration Testing
 * UI/UX Improvements
 
-# Purpose and Problem Solving
+## Purpose and Problem Solving
 This application helps the users to manage their daily tasks more efficiently. In today's fast-paced world, it's easy to get overwhelmed by tasks complexity, so our application provides a simple yet powerful tool for users to organize their tasks.
 
 By providing a comprehensive solution to task management, our app not only helps users stay organized but also promotes a good work-life balance.
