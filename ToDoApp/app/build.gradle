@@ -1,0 +1,98 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs'
+    id 'dagger.hilt.android.plugin'
+}
+
+android {
+    namespace 'com.example.todoapp'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.todoapp"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildFeatures {
+        dataBinding true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.7.7'
+
+    // Local Tests
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'androidx.arch.core:core-testing:2.2.0'
+    testImplementation 'io.mockk:mockk:1.13.8'
+    testImplementation "com.google.truth:truth:1.2.0"
+    testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.0-RC2'
+
+    // Kotlin Coroutines testing support (we added this in the last tutorial)
+    androidTestImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.0-RC2'
+
+    // Since this needs to run on an Android device we must add this one to get the RunWith(AndroidJUnit4::class)
+    androidTestImplementation "androidx.test.ext:junit:1.1.5"
+
+    // To test LiveData we also need Arch Core
+    androidTestImplementation "androidx.arch.core:core-testing:2.2.0"
+
+    // Assertion library for more readable assertions
+    androidTestImplementation "com.google.truth:truth:1.2.0"
+
+    // Espresso Core - needed for AndroidJUnit4 runner
+    androidTestImplementation "androidx.test.espresso:espresso-core:3.5.1"
+
+    // Lifecycle
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+
+    // Room DB
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+
+    // Room KTX for Coroutines
+    implementation "androidx.room:room-ktx:$room_version"
+
+    // Recycler View
+    implementation "androidx.recyclerview:recyclerview:1.3.2"
+
+    // Card View
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    // Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+
+    //Dagger - Hilt
+    implementation "com.google.dagger:hilt-android:2.49"
+    kapt "com.google.dagger:hilt-android-compiler:2.44"
+    implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03"
+    kapt "androidx.hilt:hilt-compiler:1.2.0"
+    implementation 'androidx.hilt:hilt-navigation-compose:1.2.0'
+}

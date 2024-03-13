@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save_todo">Create Todo</string>
+    <string name="enter_todo_item">Enter new Todo to add to list</string>
+    <string name="mark_as_completed">Mark Todo as completed</string>
+    <string name="delete">Delete Todo</string>
+    <string name="update">Update Todo</string>
+    <string name="todo_list">Todo List</string>
+    <string name="edit_todo">Edit Todo</string>
+    <string name="no_todo_tasks">Yay! No Todos</string>
+    <string name="add_todo">Add Todo</string>
+    <string name="todo_more_dots">todo more dots</string>
+    <string name="delete_all_todos">Delete All Todos</string>
+    <string name="search">Search</string>
+</resources>

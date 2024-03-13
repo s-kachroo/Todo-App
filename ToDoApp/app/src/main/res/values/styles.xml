@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom style for a green button -->
+    <style name="GreenButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="backgroundTint">@color/green</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- Custom style for a red button -->
+    <style name="RedButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="backgroundTint">@color/red</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- Custom style for a search button -->
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+</resources>
