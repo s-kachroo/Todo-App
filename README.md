@@ -92,8 +92,12 @@ The project leverages a variety of technologies, libraries, and architectural pr
 * Git - For version control, illustrating the use of branching, merging, and pull requests in collaborative development environments.
 
 ## Future Enhancements
-* More Unit Tests 
-* Better UIs
+* Search and Filter Functionality
+* User Authentication and Personalization
+* Push Notifications and Reminders
+* Synchronization with a Backend Server
+* Enhance Unit and Integration Testing
+* UI/UX Improvements
 
 # Purpose and Problem Solving
 This application helps the users to manage their daily tasks more efficiently. In today's fast-paced world, it's easy to get overwhelmed by tasks complexity, so our application provides a simple yet powerful tool for users to organize their tasks.
@@ -105,7 +109,6 @@ The app solves some key problems faced by anyone:
 - Organization: It allows users to capture tasks quickly and organize them in a meaningful way, reducing mental clutter and increasing focus.
 - Prioritization: Users can mark tasks as important or urgent, helping to prioritize tasks that need immediate attention, ensuring that deadlines are met.
 - Tracking Progress: By marking tasks as completed, users can track their progress through their to-do list, offering a sense of accomplishment and clarity on what's left to be done.
-
 
 ## Working
 
@@ -139,13 +142,13 @@ The app solves some key problems faced by anyone:
 </p>
 <br clear="left"/>
 
-### Search
+### Search (Trail Phase)
 <p>
  <img align="left" src="assets/search.gif" width="300" height="550"/>
 </p>
 <br clear="left"/>
 
-### Delete All Items
+### Delete All Items (Trail Phase)
 <p>
  <img align="left" src="assets/delete_all.gif" width="300" height="550"/>
 </p>
