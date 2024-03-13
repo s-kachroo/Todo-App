@@ -55,8 +55,8 @@ The project utilizes Data Binding to reduce boilerplate by binding UI components
 - The app is designed for ease of use and future scalability
 - Implement persistent storage for TODO items
 - Tasks are sorted based if they are marked DONE or NOT DONE
-- All the tasks can be deleted together (Development Phase)
-- Users can search among the TODO tasks (Development Phase)
+- All the tasks can be deleted together (Development Phase - Dev Testing)
+- Users can search among the TODO tasks (Development Phase - Dev Testing)
 
 ## Build Instructions
 
@@ -105,3 +105,48 @@ The app solves some key problems faced by anyone:
 - Organization: It allows users to capture tasks quickly and organize them in a meaningful way, reducing mental clutter and increasing focus.
 - Prioritization: Users can mark tasks as important or urgent, helping to prioritize tasks that need immediate attention, ensuring that deadlines are met.
 - Tracking Progress: By marking tasks as completed, users can track their progress through their to-do list, offering a sense of accomplishment and clarity on what's left to be done.
+
+
+## Working
+
+### Add Item
+<p>
+ <img align="left" src="assets/add.gif" width="300" height="550"/>
+</p>
+<br clear="left"/>
+
+### Mark as Done
+<p>
+ <img align="left" src="assets/done.gif" width="300" height="550"/>
+</p>
+<br clear="left"/>
+
+### View Room
+<p>
+ <img align="left" src="assets/room.gif" width="300" height="550"/>
+</p>
+<br clear="left"/>
+
+### Delete Item
+<p>
+ <img align="left" src="assets/delete.gif" width="300" height="550"/>
+</p>
+<br clear="left"/>
+
+### Edit Item
+<p>
+ <img align="left" src="assets/edit.gif" width="300" height="550"/>
+</p>
+<br clear="left"/>
+
+### Search
+<p>
+ <img align="left" src="assets/search.gif" width="300" height="550"/>
+</p>
+<br clear="left"/>
+
+### Delete All Items
+<p>
+ <img align="left" src="assets/delete_all.gif" width="300" height="550"/>
+</p>
+<br clear="left"/>
